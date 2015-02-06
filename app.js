@@ -22,7 +22,7 @@ $(document).ready(function() {
            data: {
              name: userName,
              job: userJob
-           },
+             },
            success: function(res) {
             $('#recentUser').html(
             '<li>' +
